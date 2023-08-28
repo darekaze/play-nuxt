@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "version": "0.0.0",
+  "scripts": {
+    "prepare": "nuxi prepare",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "0.8.2",
+    "@pinia/nuxt": "0.4.11",
+    "@unocss/nuxt": "0.55.3",
+    "css-preset": "workspace:*",
+    "jsbarcode": "3.11.5",
+    "mitt": "3.0.1",
+    "nuxt": "3.7.0",
+    "pinia": "2.1.6",
+    "pinia-store": "workspace:*",
+    "sass": "1.66.1",
+    "sass-loader": "13.3.2",
+    "tsconfig": "workspace:*",
+    "typescript": "5.2.2",
+    "ui": "workspace:*",
+    "vite": "4.4.9",
+    "vue": "3.3.4",
+    "vue-toastification": "2.0.0-rc.5",
+    "webpack": "5.88.2"
+  }
+}
